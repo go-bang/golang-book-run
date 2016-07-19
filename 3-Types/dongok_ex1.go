@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Println("string length", len("aaaaaa"))
 
-	fmt.Println("sum=", sum)
+	//fmt.Println("sum=", sum)
 	fmt.Println("input 계산")
 
 	var a, b int
