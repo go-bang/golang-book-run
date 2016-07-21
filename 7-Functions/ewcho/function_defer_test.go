@@ -11,7 +11,7 @@ func second() {
 }
 
 func ExampleDefer() {
-	defer first()
+	defer first() // 사용한 자원을 해제할 때 자주 사용
 	second()
 
 	// Output:
