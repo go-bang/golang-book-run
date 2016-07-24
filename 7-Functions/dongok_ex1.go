@@ -28,7 +28,7 @@ func main() {
 	fmt.Println(half(11))
 
 	fmt.Println(getMax(1, 2, 10, 4, 6, 7, 8))
-	fmt.Println(getPiboList(10))
+	fmt.Println(getPiboList(30))
 }
 
 func getMax(a ...int) (max int) {

@@ -11,4 +11,4 @@ def fibolist(n):
 	return list
 
 
-print(fibolist(10))
+print(fibolist(40))
