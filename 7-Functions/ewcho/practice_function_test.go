@@ -60,7 +60,7 @@ func ExampleMain() {
 	fmt.Println(oddNext())
 
 	fmt.Println(fibonacci(2))
-	fmt.Println(fibonacci(20))
+	fmt.Println(fibonacci(50))
 
 	// Output:
 	// 1 true
