@@ -54,9 +54,6 @@ func fib(x uint) uint {
 	return fib(x - 1) + fib(x - 2)
 }
 
-// todo: 강화1 memorization된 fib를 작성.
-// todo: 강화2 memorization된 fib를 channel로 뚫어서 작성.
-
 func main() {
 	fmt.Println(Sum(1, 2, 3))
 	fmt.Println(DivideBy2(4))
@@ -66,7 +63,4 @@ func main() {
 	fmt.Println(nextOdd()) // 3
 	fmt.Println(nextOdd()) // 5
 	fmt.Println("=========================")
-	for i := uint(0); i < 50; i++ {
-		fmt.Println(i, ": ", fib(i))
-	}
 }
